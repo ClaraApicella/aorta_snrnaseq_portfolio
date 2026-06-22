@@ -1,0 +1,27 @@
+# Data
+data/
+*.h5
+*.mtx
+*.tsv
+*.csv
+*.gz
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+env/
+.ipynb_checkpoints/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Snakemake
+.snakemake/
