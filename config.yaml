@@ -1,0 +1,13 @@
+# Project Configuration
+# This file stores all variables that might change if you switch datasets
+
+dataset:
+  name: "GSE207784"
+  url: "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE207nnn/GSE207784/suppl/GSE207784_AorticAneurysm_scportal_06.29.2022.h5ad.gz"
+  filename: "GSE207784_AorticAneurysm_scportal_06.29.2022.h5ad.gz"
+
+preprocessing:
+  min_genes: 200
+  min_cells: 3
+  max_genes: 4000
+  max_mt_pct: 5
